@@ -8,7 +8,7 @@ public class Ads : MonoBehaviour
     
         public void Start() {
         if(Advertisement.isSupported){
-            Advertisement.Initialize("4205363",false);
+            Advertisement.Initialize(".....",false);
         }
     }
     public void ShowAds(){

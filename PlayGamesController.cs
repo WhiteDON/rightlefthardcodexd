@@ -14,7 +14,7 @@ public static void AddScoreToLeaderBoard(string leaderBoard, int score)
  {
      if (Social.localUser.authenticated)
      {
-         Social.ReportScore(score, "CgkIhbPIqPcLEAIQAA", success => { });
+         Social.ReportScore(score, ".........", success => { });
      }
  }
 public void ShowLeaderBoard()
